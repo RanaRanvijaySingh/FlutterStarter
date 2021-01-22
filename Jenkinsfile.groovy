@@ -42,7 +42,7 @@ pipeline {
                 expression { return params.current_status == "closed" && params.merged == true }
             }
             steps {
-                appCenter apiToken: 'f51cf29ba6b2234a84c999bc37348db84624c615',
+                appCenter apiToken: '794df02f8d5db84fa465fcb89811a5842a91ecf1',
                         ownerName: 'ranaranvijaysingh9-gmail.com',
                         appName: 'Flutter-Crystal-Cruise',
                         pathToApp: 'build/app/outputs/apk/debug/app-debug.apk',
